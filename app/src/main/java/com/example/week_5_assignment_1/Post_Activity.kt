@@ -27,7 +27,6 @@ class Post_Activity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when(v?.id){
             R.id.btnPost->{
-                Toast.makeText(this, "clicked", Toast.LENGTH_SHORT).show()
                 val status = tvStatus.text.toString()
                 val link = tvLink.text.toString()
                 val intent = Intent()
